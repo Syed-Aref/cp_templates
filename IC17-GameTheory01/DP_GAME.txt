@@ -1,0 +1,19 @@
+X = {x[1],x[2],x[3] .... ,x[k]};
+
+int win[nmax];
+
+for(i = 1 to nmax) win[i] = -1; //Not decided yet
+
+dp(N) {
+
+    for(n = 1 to N) {
+        win[n] = 2;
+        for(xi in X) {
+            if( xi == n ) win[n] = 1;
+            else if( n-xi>0 && win[n-xi] == 2 ) win[n] = 1;
+            if( win[n] == 1 ) break;
+        }
+    }
+
+}
+/// T(n) = N*k

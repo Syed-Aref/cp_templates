@@ -1,0 +1,5 @@
+1)Mirroring
+2)Using samller version
+3)Use known configuration
+4)Sometimes, there may be no strategy
+5)Look for special move

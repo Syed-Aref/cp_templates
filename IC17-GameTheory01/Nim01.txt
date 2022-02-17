@@ -1,0 +1,8 @@
+pile = {p[1],p2[2], .... ,p[n] };
+
+int xor_ = 0;
+
+for(auto pi: pile) xor_ = (xor^pi);
+
+if(xor_ == 0  ) second player wins;
+else first player wins;
